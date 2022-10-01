@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculater</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h4>Calculater</h4>
+    <table>
+        <tr>
+            <td colspan="3"> <input type="text" class="clear" id="input"></td>
+            <td> <input type="button" value="C" class="clear" onclick="clr()"></td>
+        </tr>
+        <tr>
+            <td> <input type="button" value="7" onclick="btnClick('7')"></td>
+            <td> <input type="button" value="8" onclick="btnClick('8')"></td>
+            <td> <input type="button" value="9" onclick="btnClick('9')"></td>
+            <td> <input type="button" value="/" onclick="btnClick('/')"></td>
+        </tr>
+        <tr>
+            <td> <input type="button" value="4" onclick="btnClick('4')"></td>
+            <td> <input type="button" value="5" onclick="btnClick('5')"></td>
+            <td> <input type="button" value="6" onclick="btnClick('6')"></td>
+            <td> <input type="button" value="*" onclick="btnClick('*')"></td>
+        </tr>
+        <tr>
+            <td> <input type="button" value="1" onclick="btnClick('1')"></td>
+            <td> <input type="button" value="2" onclick="btnClick('2')"></td>
+            <td> <input type="button" value="3" onclick="btnClick('3')"></td>
+            <td> <input type="button" value="-" onclick="btnClick('-')"></td>
+        </tr>
+        <tr>
+            <td> <input type="button" value="0" onclick="btnClick('0')"></td>
+            <td> <input type="button" value="." onclick="btnClick('.')"></td>
+            <td> <input type="button" value="=" class="equal" onclick="equalValue()"></td>
+            <td> <input type="button" value="+" onclick="btnClick('+')"></td>
+        </tr>
+    </table>
+    <script src="index.js"></script>
+</body>
+</html>
